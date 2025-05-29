@@ -1,11 +1,12 @@
 .box-curve {
-  background-color: #333;
-  color: #eee
+  background-color: #333 !important;
+  color: #eee !important
 }
 #ad-entry-sp-6,
 #ad-overlay-bottom-sp-1,
 #bannersub,
 #bookmark-comment-unit,
+#intro,
 #logo a,
 .share-button,
 .icon,
