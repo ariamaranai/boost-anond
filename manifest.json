@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "boost-anond",
+  "version": "0",
+  "description": "Boost anond.hatelabo.jp",
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "contentSettings"
+  ],
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "content_scripts": [{
+    "css": ["main.css"],
+    "matches": ["https://anond.hatelabo.jp/*"],
+    "run_at": "document_start"
+  }]
+}

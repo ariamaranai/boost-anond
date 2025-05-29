@@ -1,0 +1,33 @@
+.box-curve {
+  background-color: #333;
+  color: #eee
+}
+#ad-entry-sp-6,
+#ad-overlay-bottom-sp-1,
+#bannersub,
+#bookmark-comment-unit,
+#logo a,
+.share-button,
+.icon,
+.navigation,
+.caption,
+.double-rectangle,
+img {
+  display: none !important
+}
+:any-link {
+  display: contents;
+  color: #ddd !important
+}
+#hotentriesblock,
+#body,
+.body,
+.refererlist ul,
+body {
+  background-color: #111 !important;
+  color: #ddd !important
+}
+#popularentriesblock {
+  margin: 0 !important;
+  background-color: #111 !important
+}
