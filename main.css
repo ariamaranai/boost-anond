@@ -1,7 +1,3 @@
-.box-curve {
-  background-color: #333 !important;
-  color: #eee !important
-}
 #ad-entry-sp-6,
 #ad-overlay-bottom-sp-1,
 #bannersub,
@@ -16,19 +12,12 @@
 img {
   display: none !important
 }
-:any-link {
-  display: contents;
-  color: #ddd !important
+:root {
+  filter: invert(1) brightness(.9) hue-rotate(180deg)
 }
-#hotentriesblock,
-#body,
-.body,
-.refererlist ul,
-body {
-  background-color: #111 !important;
-  color: #ddd !important
+:any-link {
+  display: contents
 }
 #popularentriesblock {
-  margin: 0 !important;
-  background-color: #111 !important
+  margin: 0 !important
 }
