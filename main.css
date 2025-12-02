@@ -16,6 +16,9 @@ img {
   font-weight: 590;
   filter: invert(1) hue-rotate(180deg)
 }
+.search-text {
+  font: unset
+}
 :any-link {
   display: contents
 }
