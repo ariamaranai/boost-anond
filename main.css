@@ -13,6 +13,7 @@ img {
   display: none !important
 }
 :root {
+  font-weight: 590;
   filter: invert(1) hue-rotate(180deg)
 }
 :any-link {
