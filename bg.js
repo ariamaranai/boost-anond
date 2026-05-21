@@ -3,9 +3,9 @@ chrome.runtime.onInstalled.addListener(() => {
   let primaryUrl = { primaryUrl: "https://anond.hatelabo.jp" };
   let value = { primaryPattern: "https://anond.hatelabo.jp/*", setting: "block" };
   images.get(primaryUrl, details =>
-    details.setting != "allow" || images.set(value)
+    details.setting == "allow" && images.set(value)
   );
   return javascript.get(primaryUrl, details =>
-    details.setting != "allow" || javascript.set(value)
+    details.setting == "allow" && javascript.set(value)
   );
 });
